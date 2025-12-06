@@ -10,6 +10,7 @@ public class Car {
         this.dog = new Dog(name);
         this.animal = this.dog; // Assigning a Cat instance to the Animal reference
         System.out.println(cat.meow());
+        System.out.println(dog.bark());
     }
 
     @Override
