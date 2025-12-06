@@ -8,7 +8,7 @@ public class Car {
         this.name = name;
         this.cat = new Cat(name);
         this.dog = new Dog(name);
-        this.animal = this.dog; // Assigning a Cat instance to the Animal reference
+        this.animal = this.cat; // Assigning a Cat instance to the Animal reference
         System.out.println(cat.meow());
     }
 
